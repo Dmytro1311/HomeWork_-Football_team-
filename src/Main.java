@@ -26,6 +26,8 @@ public class Main {
         for (int i = 0; i < secondTeam.length; i++) {
             middleAgeSecondTeam += secondTeam[i];
                     }
+        System.out.println("Середній вік команди: " + (double) middleAgeSecondTeam / secondTeam.length);
+        System.out.println("Середній вік команди: " + (double) middleAgeFirstTeam / firstTeam.length);
 
     }
 }
